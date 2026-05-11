@@ -4,6 +4,14 @@
 <meta charset="UTF-8">
 <title>Importadores</title>
 <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
+
+
 <script defer src="script.js"></script>
 </head>
 
@@ -15,17 +23,17 @@
 
 <div class="filtros">
     <button onclick="filtrar('all')">Todos</button>
-    <button onclick="filtrar('tecnologia')">INDUMENTARIA</button>
-    <button onclick="filtrar('ropa')">tecnologia</button>
+    <button onclick="filtrar('ropa')">INDUMENTARIA</button>
+    <button onclick="filtrar('tecnologia')">tecnologia</button>
     <button onclick="filtrar('electro')">Electrodomésticos</button>
-    <button onclick="filtrar('electro')">CALZADOS</button>
-    <button onclick="filtrar('electro')">JOYAS Y PERFUMES</button>
+    <button onclick="filtrar('calzados')">CALZADOS</button>
+    <button onclick="filtrar('JOYAS y PERFUMES')">JOYAS Y PERFUMES</button>
 </div>
 
 <main class="container">
 
 
-    <div class="card" data-categoria="tecnologia">
+    <div class="card" data-categoria="ropa">
     <img src="img/p1.jpg">
     <h3>YOBYS DARIO</h3>
     <p><strong>Categoría:</strong> Indumentaria</p>
@@ -74,7 +82,7 @@
 </div>
 
 
-<div class="card" data-categoria="tecnologia">
+<div class="card" data-categoria="electro">
     <img src="img/p3.jpg">
     <h3>CAMILA BELTRAN</h3>
     <p><strong>Categoría:</strong> Electrodomésticos</p>
@@ -97,7 +105,7 @@
 </div>
 
 
-<div class="card" data-categoria="tecnologia">
+<div class="card" data-categoria="calzados">
     <img src="img/p4.jpg">
     <h3>MELINA DORMAN</h3>
     <p><strong>Categoría:</strong> CALZADOS</p>
@@ -120,7 +128,7 @@
 </div>
 
 
-<div class="card" data-categoria="tecnologia">
+<div class="card" data-categoria="JOYAS y PERFUMES">
     <img src="img/p5.jpg">
     <h3>EMMA FERNANDEZ</h3>
     <p><strong>Categoría:</strong> JOYAS Y PERFUMES</p>
@@ -143,14 +151,17 @@
 </div>
 
 
-<div class="card" data-categoria="tecnologia">
-    <img src="img/p1.jpg">
-    <h3>Importador 1</h3>
-    <p><strong>Categoría:</strong> Tecnología</p>
+
+
+
+<div class="card" data-categoria="ropa">
+    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg">
+    <h3>YOBYS DARIO</h3>
+    <p><strong>Categoría:</strong> Indumentaria</p>
 
     <ul>
-        <li>Celulares</li>
-        <li>Notebooks</li>
+        <li>pantalones</li>
+        <li>camperas</li>
     </ul>
 
     <p><strong>Contacto:</strong></p>
@@ -158,13 +169,20 @@
         <li>📞 221-111111</li>
         <li>📧 imp1@mail.com</li>
     </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo1.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
 </div>
 
 
 
+
+
 <div class="card" data-categoria="tecnologia">
-    <img src="img/p1.jpg">
-    <h3>Importador 1</h3>
+    <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg">
+    <h3>MELINA RIOS</h3>
     <p><strong>Categoría:</strong> Tecnología</p>
 
     <ul>
@@ -177,18 +195,94 @@
         <li>📞 221-111111</li>
         <li>📧 imp1@mail.com</li>
     </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo2.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
+</div>
+
+
+<div class="card" data-categoria="electro">
+    <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg">
+    <h3>CAMILA BELTRAN</h3>
+    <p><strong>Categoría:</strong> Electrodomésticos</p>
+
+    <ul>
+        <li>Celulares</li>
+        <li>Notebooks</li>
+    </ul>
+
+    <p><strong>Contacto:</strong></p>
+    <ul>
+        <li>📞 221-111111</li>
+        <li>📧 imp1@mail.com</li>
+    </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo3.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
+</div>
+
+
+<div class="card" data-categoria="calzados">
+    <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg">
+    <h3>MELINA DORMAN</h3>
+    <p><strong>Categoría:</strong> CALZADOS</p>
+
+    <ul>
+        <li>Celulares</li>
+        <li>Notebooks</li>
+    </ul>
+
+    <p><strong>Contacto:</strong></p>
+    <ul>
+        <li>📞 221-111111</li>
+        <li>📧 imp1@mail.com</li>
+    </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo4.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
+</div>
+
+
+<div class="card" data-categoria="JOYAS y PERFUMES">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.2cOe4ej-roywKGJXcvQQUQHaF7?pid=Api&P=0&h=180">
+    <h3>EMMA FERNANDEZ</h3>
+    <p><strong>Categoría:</strong> JOYAS Y PERFUMES</p>
+
+    <ul>
+        <li>Celulares</li>
+        <li>Notebooks</li>
+    </ul>
+
+    <p><strong>Contacto:</strong></p>
+    <ul>
+        <li>📞 221-111111</li>
+        <li>📧 imp1@mail.com</li>
+    </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo1.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
 </div>
 
 
 
-<div class="card" data-categoria="tecnologia">
-    <img src="img/p1.jpg">
-    <h3>Importador 1</h3>
-    <p><strong>Categoría:</strong> Tecnología</p>
+
+
+<div class="card" data-categoria="ropa">
+    <img src="https://static.vecteezy.com/system/resources/previews/006/847/961/non_2x/portrait-of-happy-senior-man-looking-at-camera-smiling-elderly-caucasian-old-man-photo.jpg">
+    <h3>YOBYS DARIO</h3>
+    <p><strong>Categoría:</strong> Indumentaria</p>
 
     <ul>
-        <li>Celulares</li>
-        <li>Notebooks</li>
+        <li>pantalones</li>
+        <li>camperas</li>
     </ul>
 
     <p><strong>Contacto:</strong></p>
@@ -196,13 +290,20 @@
         <li>📞 221-111111</li>
         <li>📧 imp1@mail.com</li>
     </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo1.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
 </div>
 
 
 
+
+
 <div class="card" data-categoria="tecnologia">
-    <img src="img/p1.jpg">
-    <h3>Importador 1</h3>
+    <img src="https://tse1.mm.bing.net/th/id/OIP.Yx2-LKOR4eKXbUcpxgNHQwHaHb?pid=Api&P=0&h=180">
+    <h3>MELINA RIOS</h3>
     <p><strong>Categoría:</strong> Tecnología</p>
 
     <ul>
@@ -215,18 +316,95 @@
         <li>📞 221-111111</li>
         <li>📧 imp1@mail.com</li>
     </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo2.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
+</div>
+
+
+<div class="card" data-categoria="electro">
+    <img src="https://tse1.mm.bing.net/th/id/OIP.y0OYXEKpz1kKsoYD1BB89wHaEJ?pid=Api&P=0&h=180">
+    <h3>CAMILA BELTRAN</h3>
+    <p><strong>Categoría:</strong> Electrodomésticos</p>
+
+    <ul>
+        <li>Celulares</li>
+        <li>Notebooks</li>
+    </ul>
+
+    <p><strong>Contacto:</strong></p>
+    <ul>
+        <li>📞 221-111111</li>
+        <li>📧 imp1@mail.com</li>
+    </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo3.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
+</div>
+
+
+<div class="card" data-categoria="calzados">
+    <img src="https://media.licdn.com/dms/image/v2/C4E03AQFs_RBYdm6MSA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1543794901256?e=2147483647&v=beta&t=M05QdWmyjAj9JWz_bZk-FH0fHE3rm7RP0WxfsxfUxNI">
+    <h3>MELINA DORMAN</h3>
+    <p><strong>Categoría:</strong> CALZADOS</p>
+
+    <ul>
+        <li>Celulares</li>
+        <li>Notebooks</li>
+    </ul>
+
+    <p><strong>Contacto:</strong></p>
+    <ul>
+        <li>📞 221-111111</li>
+        <li>📧 imp1@mail.com</li>
+    </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo4.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
+</div>
+
+
+<div class="card" data-categoria="JOYAS y PERFUMES">
+    <img src="https://storyblok-cdn.photoroom.com/f/191576/1176x882/f95162c213/profile_picture_hero_before.webp">
+    <h3>EMMA FERNANDEZ</h3>
+    <p><strong>Categoría:</strong> JOYAS Y PERFUMES</p>
+
+    <ul>
+        <li>Celulares</li>
+        <li>Notebooks</li>
+    </ul>
+
+    <p><strong>Contacto:</strong></p>
+    <ul>
+        <li>📞 221-111111</li>
+        <li>📧 imp1@mail.com</li>
+    </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo1.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
 </div>
 
 
 
-<div class="card" data-categoria="tecnologia">
-    <img src="img/p1.jpg">
-    <h3>Importador 1</h3>
-    <p><strong>Categoría:</strong> Tecnología</p>
+
+
+
+<div class="card" data-categoria="ropa">
+    <img src="https://img.magnific.com/fotos-premium/capturando-peinados-autenticos-hombres-asiaticos-fotografias-reales-sobre-fondo-blanco_983420-133241.jpg">
+    <h3>YOBYS DARIO</h3>
+    <p><strong>Categoría:</strong> Indumentaria</p>
 
     <ul>
-        <li>Celulares</li>
-        <li>Notebooks</li>
+        <li>pantalones</li>
+        <li>camperas</li>
     </ul>
 
     <p><strong>Contacto:</strong></p>
@@ -234,13 +412,20 @@
         <li>📞 221-111111</li>
         <li>📧 imp1@mail.com</li>
     </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo1.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
 </div>
 
 
 
+
+
 <div class="card" data-categoria="tecnologia">
-    <img src="img/p1.jpg">
-    <h3>Importador 1</h3>
+    <img src="https://b2472105.smushcdn.com/2472105/wp-content/uploads/2022/12/Foto-Perfil-Profesional-Cristy-Palacios-dic.-02-2022-1024x1024.jpg?lossy=1&strip=1&webp=1">
+    <h3>MELINA RIOS</h3>
     <p><strong>Categoría:</strong> Tecnología</p>
 
     <ul>
@@ -253,18 +438,94 @@
         <li>📞 221-111111</li>
         <li>📧 imp1@mail.com</li>
     </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo2.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
+</div>
+
+
+<div class="card" data-categoria="electro">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.dKfv7xASQ1yevxOboY8kxwHaFj?pid=Api&P=0&h=180">
+    <h3>CAMILA BELTRAN</h3>
+    <p><strong>Categoría:</strong> Electrodomésticos</p>
+
+    <ul>
+        <li>Celulares</li>
+        <li>Notebooks</li>
+    </ul>
+
+    <p><strong>Contacto:</strong></p>
+    <ul>
+        <li>📞 221-111111</li>
+        <li>📧 imp1@mail.com</li>
+    </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo3.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
+</div>
+
+
+<div class="card" data-categoria="calzados">
+    <img src="https://thumbs.dreamstime.com/b/hombre-asi%C3%A1tico-2767185.jpg">
+    <h3>MELINA DORMAN</h3>
+    <p><strong>Categoría:</strong> CALZADOS</p>
+
+    <ul>
+        <li>Celulares</li>
+        <li>Notebooks</li>
+    </ul>
+
+    <p><strong>Contacto:</strong></p>
+    <ul>
+        <li>📞 221-111111</li>
+        <li>📧 imp1@mail.com</li>
+    </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo4.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
+</div>
+
+
+<div class="card" data-categoria="JOYAS y PERFUMES">
+    <img src="https://img.magnific.com/psd-premium/mujer-mayor-cabello-corto-etnia-asia-occidental-vestida-ropa-radiologo-posa-perfil-estilo-iluminacion-dramatica-contra-fondo-albaricoque-pastel_410516-159481.jpg">
+    <h3>EMMA FERNANDEZ</h3>
+    <p><strong>Categoría:</strong> JOYAS Y PERFUMES</p>
+
+    <ul>
+        <li>Celulares</li>
+        <li>Notebooks</li>
+    </ul>
+
+    <p><strong>Contacto:</strong></p>
+    <ul>
+        <li>📞 221-111111</li>
+        <li>📧 imp1@mail.com</li>
+    </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo1.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
 </div>
 
 
 
-<div class="card" data-categoria="tecnologia">
-    <img src="img/p1.jpg">
-    <h3>Importador 1</h3>
-    <p><strong>Categoría:</strong> Tecnología</p>
+
+
+<div class="card" data-categoria="ropa">
+    <img src="https://www.publimetro.cl/resizer/v2/4GT4QMHD7FEBVKTDFUGCXB42NM.jpeg?focal=326%2C93&auth=0a806378334e4ddc5657363d2e255f11d6e77d07d51e787e32fe1be43fc5d2bb&width=1440&height=809">
+    <h3>YOBYS DARIO</h3>
+    <p><strong>Categoría:</strong> Indumentaria</p>
 
     <ul>
-        <li>Celulares</li>
-        <li>Notebooks</li>
+        <li>pantalones</li>
+        <li>camperas</li>
     </ul>
 
     <p><strong>Contacto:</strong></p>
@@ -272,13 +533,20 @@
         <li>📞 221-111111</li>
         <li>📧 imp1@mail.com</li>
     </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo1.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
 </div>
 
 
 
+
+
 <div class="card" data-categoria="tecnologia">
-    <img src="img/p1.jpg">
-    <h3>Importador 1</h3>
+    <img src="https://i1.rgstatic.net/ii/profile.image/915906288951298-1595380484478_Q512/Agustina-Iglesias-2.jpg">
+    <h3>MELINA RIOS</h3>
     <p><strong>Categoría:</strong> Tecnología</p>
 
     <ul>
@@ -291,6 +559,80 @@
         <li>📞 221-111111</li>
         <li>📧 imp1@mail.com</li>
     </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo2.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
+</div>
+
+
+<div class="card" data-categoria="electro">
+    <img src="https://media.licdn.com/dms/image/v2/C5603AQFxP-GCW2et3Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1644619964388?e=2147483647&v=beta&t=x__7CQLK3w8DOrvVKA7CUVdKFo05as1JgKyNirO726k">
+    <h3>CAMILA BELTRAN</h3>
+    <p><strong>Categoría:</strong> Electrodomésticos</p>
+
+    <ul>
+        <li>Celulares</li>
+        <li>Notebooks</li>
+    </ul>
+
+    <p><strong>Contacto:</strong></p>
+    <ul>
+        <li>📞 221-111111</li>
+        <li>📧 imp1@mail.com</li>
+    </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo3.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
+</div>
+
+
+<div class="card" data-categoria="calzados">
+    <img src="https://www.clarin.com/img/authors/agustina-devincenzi___663d2e1c21267f001b4afe30.png">
+    <h3>MELINA DORMAN</h3>
+    <p><strong>Categoría:</strong> CALZADOS</p>
+
+    <ul>
+        <li>Celulares</li>
+        <li>Notebooks</li>
+    </ul>
+
+    <p><strong>Contacto:</strong></p>
+    <ul>
+        <li>📞 221-111111</li>
+        <li>📧 imp1@mail.com</li>
+    </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo4.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
+</div>
+
+
+<div class="card" data-categoria="JOYAS y PERFUMES">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.7jRucXjPbUlJ4ZO4FJf4tAHaFc?pid=Api&P=0&h=180">
+    <h3>EMMA FERNANDEZ</h3>
+    <p><strong>Categoría:</strong> JOYAS Y PERFUMES</p>
+
+    <ul>
+        <li>Celulares</li>
+        <li>Notebooks</li>
+    </ul>
+
+    <p><strong>Contacto:</strong></p>
+    <ul>
+        <li>📞 221-111111</li>
+        <li>📧 imp1@mail.com</li>
+    </ul>
+
+    <!-- 🔥 BOTÓN CATÁLOGO -->
+    <a href="catalogo1.html" class="btn-catalogo">
+        Ver catálogo
+    </a>
 </div>
 
 
